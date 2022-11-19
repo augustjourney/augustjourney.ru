@@ -1,0 +1,4 @@
+{
+    // extent nuxt config
+    "extends": "./.nuxt/tsconfig.json"
+}
