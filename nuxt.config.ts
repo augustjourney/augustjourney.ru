@@ -1,9 +1,7 @@
-import { defineNuxtConfig } from 'nuxt'
-
 export default defineNuxtConfig({
 	ssr: true,
-	css: ['~/assets/css/tailwind.css'],
-	modules: ['@nuxt/content'],
+	modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
+	css: ['~/assets/css/main.css'],
 	build: {
 		postcss: {
 			postcssOptions: {
