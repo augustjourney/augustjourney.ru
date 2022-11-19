@@ -10,15 +10,14 @@
 		"generate": "nuxt generate",
 		"preview": "nuxt preview"
 	},
-	"dependencies": {
-		"dayjs": "^1.10.7"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"@nuxt/content": "latest",
 		"@nuxtjs/tailwindcss": "latest",
 		"@tailwindcss/typography": "^0.5.4",
 		"autoprefixer": "latest",
-		"nuxt": "3.0.0-rc.4",
-		"postcss": "latest"
+		"nuxt": "3.0.0",
+		"postcss": "latest",
+		"dayjs": "^1.10.7"
 	}
 }
