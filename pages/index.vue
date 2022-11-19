@@ -17,7 +17,7 @@
             <h2 class="text-2xl text-black dark:text-dark-20 font-medium mb-3">Блог</h2>
             
             <ContentList path="/posts" v-slot="{ list }" :query="{ sort: { date:-1, $numeric: true } }">
-                <postPreview v-for="post in list" :key="post._id" :post="post" />   
+                <PostPreview v-for="post in list" :key="post._id" :post="post" />   
             </ContentList>
         </div>
     </div>
