@@ -13,27 +13,6 @@ body {
     overflow: overlay;
 }
 
-::-webkit-scrollbar {
-    width: 6px !important;
-    background-color: transparent !important;
-}
-
-::-webkit-scrollbar-track {
-    border-radius: 10px;
-    -webkit-box-shadow: none !important;
-    background-color: transparent !important;
-}
-
-::-webkit-scrollbar-corner,
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: #333333;
-}
-
-::-webkit-scrollbar-corner {
-    background: transparent;
-}
-
 .link {
     box-shadow: 0 10px 0 0 rgb(85 172 238 / 0%), inset 0 -0.125em rgb(85 172 238 / 20%);
     padding: 0 2px 2px;
