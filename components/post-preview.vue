@@ -10,18 +10,12 @@
 				{{ post.title }}
 			</h2>
 			<p class="text-base font-normal text-neutral-600 dark:text-neutral-200" :class="{ 'opacity-90': hovered }">
-				{{ postDate }}
+				{{ $dayjs.unix(post.date).format('DD MMM YYYY') }}
 			</p>
 		</div>
 	</a>
 </template>
 <script setup>
-import dayjs from 'dayjs';
-import 'dayjs/locale/ru';
 const props = defineProps(['post']);
 const hovered = ref(false);
-async function get_date(date) {
-	return dayjs.unix(date).locale('ru').format('DD MMM YYYY');
-}
-const postDate = await get_date(props.post.date);
 </script>

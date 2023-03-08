@@ -5,7 +5,7 @@
 				{{ post.title }}
 			</h1>
 			<p class="text-base font-normal mb-6 text-dark-666 dark:text-dark-999">
-				{{ postDate }}
+				{{ $dayjs.unix(post.date).format('DD MMM YYYY') }}
 			</p>
 			<article class="prose prose-neutral prose-xl prose-p:leading-snug">
 				<ContentDoc />
@@ -14,15 +14,9 @@
 	</div>
 </template>
 <script setup>
-import dayjs from 'dayjs';
-import 'dayjs/locale/ru';
 const { path } = useRoute();
 const post = await queryContent('/').only(['title', 'date']).where({ _path: path }).findOne();
 useHead({
 	title: post?.value?.title || '',
 });
-async function get_date(date) {
-	return dayjs.unix(date).locale('ru').format('DD MMM YYYY');
-}
-const postDate = await get_date(post.date);
 </script>
