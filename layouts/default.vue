@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full h-full bg-white">
-		<TheNavbar/>
+		<TheNavbar />
 		<slot></slot>
 	</div>
 </template>
