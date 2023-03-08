@@ -1,23 +1,24 @@
 {
-	"name": "augustjourney",
-	"version": "1.0.0",
-	"description": "My super-excellent Nuxt.js project",
-	"author": "Kostya",
-	"private": true,
-	"scripts": {
-		"build": "nuxt build",
-		"dev": "nuxt dev",
-		"generate": "nuxt generate",
-		"preview": "nuxt preview"
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"@nuxt/content": "latest",
-		"@nuxtjs/tailwindcss": "latest",
-		"@tailwindcss/typography": "^0.5.4",
-		"autoprefixer": "latest",
-		"nuxt": "3.0.0",
-		"postcss": "latest",
-		"dayjs": "^1.10.7"
-	}
+  "name": "augustjourney",
+  "version": "1.0.0",
+  "description": "My super-excellent Nuxt.js project",
+  "author": "Kostya",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@nuxt/content": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "@tailwindcss/typography": "^0.5.4",
+    "autoprefixer": "latest",
+    "dayjs": "^1.10.7",
+    "nuxt": "3.0.0",
+    "postcss": "latest",
+    "prettier": "^2.8.4"
+  }
 }
