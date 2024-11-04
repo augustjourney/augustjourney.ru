@@ -11,9 +11,7 @@
 				Пишу код, создаю проект <a class="link text-blue-600" href="https://speakny.ru">speakny.ru</a> и <a class="link text-blue-600" href="https://createtoday.ru">createtoday.ru</a>
 			</p>
 
-			<p class="md:text-xl text-lg text-dark-555 dark:text-gray-300 font-normal mb-6">Раньше преподавал английский, испанский, итальянский, французский, португальский. А сейчас учусь в университете искусственного интеллекта.</p>
-
-			<p class="md:text-xl text-lg text-dark-555 dark:text-dark-20 font-normal mb-12">Здесь документирую понемногу свое путешествие.</p>
+			<p class="md:text-xl text-lg text-dark-555 dark:text-gray-300 font-normal mb-12">Раньше преподавал иностранные языки, сейчас работаю fullstack-разработчиком. Здесь документирую понемногу свое путешествие.</p>
 
 			<h2 class="text-2xl text-black dark:text-dark-20 font-medium mb-3">Блог</h2>
 
